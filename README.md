@@ -32,6 +32,6 @@ chmod +x setup.sh
 4. Run the script
  ./setup.sh
 
-Usage
+## Usage
 
 During the installation, the script will have set up your Terminal. You can start using the installed tools immediately after setup.
