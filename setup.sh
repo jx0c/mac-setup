@@ -19,6 +19,7 @@ brew install git
 brew install node
 brew install python3
 brew install gh
+brew install --cask visual-studio-code
 
 # Install Oh-My-Zsh
 echo "Installing Oh-My-Zsh..."
@@ -47,16 +48,8 @@ brew install --cask font-meslo-lg-nerd-font
 # Source the .zshrc to reflect changes
 source ~/.zshrc
 
-zecho "installing rosetta for flutter"
-sudo softwareupdate --install-rosetta --agree-to-license
-
-echo "Installing vscode"
-brew install --cask visual-studio-code
-
 # Refresh shell environment
 source ~/.zprofile
 
 brew doctor
 echo "Setup complete!"
-
-
