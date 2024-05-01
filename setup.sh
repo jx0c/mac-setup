@@ -18,6 +18,7 @@ brew upgrade
 brew install git
 brew install node
 brew install python3
+brew install gh
 
 # Install Oh-My-Zsh
 echo "Installing Oh-My-Zsh..."
